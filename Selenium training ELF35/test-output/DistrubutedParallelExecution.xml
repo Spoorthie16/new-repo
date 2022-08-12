@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="tests">
+<test thread-count="2" name="Test1" >
+    <classes>
+      <class name="TestNG.TC_SR_Usr_005"/>
+      <class name="TestNG.TC_SR_User_001"/>
+      
+    </classes>
+  </test> <!-- Test -->
+  
+   <test thread-count="3" name="Test2">
+    <classes>
+      
+      <class name="TestNG.TC_SR_User_002"/>
+      <class name="TestNG.TC_SR_User_003"/>
+      <class name="TestNG.TC_SR_User_004"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
